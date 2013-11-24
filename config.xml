@@ -14,6 +14,7 @@
     <gap:plugin name="org.apache.cordova.file-transfer"  />
     <gap:plugin name="org.apache.cordova.camera"  />
   
+  
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
