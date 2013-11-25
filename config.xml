@@ -8,12 +8,6 @@
         Christophe Coenraets
     </author>
 
-    <gap:plugin name="org.apache.cordova.device" />
-    <gap:plugin name="org.apache.cordova.console"  />
-    <gap:plugin name="org.apache.cordova.file"  />
-    <gap:plugin name="org.apache.cordova.file-transfer"  />
-    <gap:plugin name="org.apache.cordova.camera"  />
-  
   
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="permissions" value="none" />
@@ -32,6 +26,12 @@
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
     <preference name="DisallowOverscroll" value="true" />
+
+
+  <gap:plugin name="org.apache.cordova.device" />
+  <gap:plugin name="org.apache.cordova.file"  />
+  <gap:plugin name="org.apache.cordova.file-transfer"  />
+  <gap:plugin name="org.apache.cordova.camera"  />
 
     <icon src="icon.png" />
     <icon gap:density="ldpi" gap:platform="android" src="res/icon/android/icon-36-ldpi.png" />
