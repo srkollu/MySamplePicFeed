@@ -40,9 +40,9 @@
         // Take a picture using the camera or select one from the library
         takePicture = function (e) {
             var options = {
-                quality: 45,
-                targetWidth: 1000,
-                targetHeight: 1000,
+                quality: 100,
+                targetWidth: 0,
+                targetHeight: 0,
                 destinationType: Camera.DestinationType.FILE_URI,
                 encodingType: Camera.EncodingType.JPEG,
                 sourceType: Camera.PictureSourceType.CAMERA
